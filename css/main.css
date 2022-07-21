@@ -7,68 +7,106 @@
 
 body, button{
     font-family:'Nunito' ,sans-serif;
-}
-section{
-    height:100vh;
-}
-h1{
-    font-weight:800px;
-    font-size:30px;
-    line-height:41px;
-    color:#000000;
-    margin-bottom:86px;
-}
-h2{
-    font-weight:400px;
-    font-size:64px;
-    line-height:87px;
-    color:#000000;
-    margin:36px 0;
-}
-h2 span{
-    color:#737373;
-}
-.text{
-    font-weight:400px;
-    font-size:30px;
-    line-height:41px;
-    margin-bottom:26px;
-}
-.content{
-    padding:64px 0 112px 115px;
-    display: inline-block;
-    width:50%;    
-}
-.msg-box{
-    font-weight:400px;
-    font-size:36px;
-    line-height:49px;
-    padding: 14px 42px;
-    color:#FFFFFF;
-    background:linear-gradient(90deg, #4568DC 0%, #B06AB3 100%);
-    display:inline-block;
-    border-radius:50px 50px 50px 0;
-}
-.content div{
-    margin:36px 0 50px 0;
-}
-.content img{
-    margin-right:12px
-}
-.crappo-img{
-    max-width:384px;
-    height:270px;
-}
-.raghul-img{
-    vertical-align: top;
-    height:100%;
-}
-@media screen  and (max-width:1200px){
-    .content{
-        padding:62px 0 36px 64px;
+    }
+    .hero{
+        height:100vh;
+        background-image: url(../images/WhatsApp\ Image\ \ \(1\).png);
+        background-repeat: no-repeat;
+        background-position: right;
     }
     h1{
-        margin-bottom:40px;
+        font-weight:800px;
+        font-size:30px;
+        line-height:41px;
+        color:#000000;
+        margin-bottom:86px;
+    }
+    h2{
+        font-weight:400px;
+        font-size:64px;
+        line-height:87px;
+        color:#000000;
+        margin:36px 0;
+    }
+    h2 span{
+        color:#737373;
+    }
+    .text{
+        font-weight:400px;
+        font-size:30px;
+        line-height:41px;
+        margin-bottom:26px;
+    }
+    .container{
+        padding:64px 0 112px 115px;
+        display: inline-block;
+        width:75%;    
+    }
+    .msg-box{
+        font-weight:400px;
+        font-size:36px;
+        line-height:49px;
+        padding: 14px 42px;
+        color:#FFFFFF;
+        background:linear-gradient(90deg, #4568DC 0%, #B06AB3 100%);
+        display:inline-block;
+        border-radius:50px 50px 50px 0;
+    }
+    .container div{
+        margin:36px 0 50px 0;
+    }
+    .container img{
+        margin-right:12px
+    }
+    .crappo-img{
+        max-width:384px;
+        height:270px;
+    }
+@media screen and (max-width:1400px){
+    .container{
+        padding:34px 0 34px 80px;
+    }
+    h1{
+        font-size:26px;
+        line-height:36px;
+        color:#000000;
+        margin-bottom:30px;
+    }
+    h2{
+        font-size:40px;
+        line-height:50px;
+        color:#000000;
+        margin:20px 0 12px 0;
+    }
+    h2 img{
+        width:35px;
+        height:35px;
+
+    }
+    .msg-box{
+        font-size:26px;
+        line-height:30px;
+        padding: 8px 30px;
+        border-radius:50px 50px 50px 0;
+    }
+    .text{
+        font-size:20px;
+        line-height:34px;
+        margin-bottom:20px;
+    }
+    .crappo-img{
+        max-width:308px;
+        height:170px;
+    }
+    .container div{
+        margin:12px 0 24px 0;
+    }
+
+    
+}    
+@media screen  and (max-width:1200px){
+    h1{
+        margin-bottom:30px;
     }
     h2{
         margin:14px 0;
@@ -88,14 +126,12 @@ h2 span{
         font-size:22px;
         line-height:30px;
     }
-    .content div{
-        margin:22px 0 20px 0;
+    .container div{
+        margin:20px 0 20px 0;
     }
     .crappo-img{
         max-width:262px;
         height:160px;
     }
     
-    
-
 }
