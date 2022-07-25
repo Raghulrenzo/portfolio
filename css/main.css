@@ -8,15 +8,8 @@
 body, button{
     font-family:'Nunito' ,sans-serif;
     }
-    section{
-        height: 100vh;
-    }
-    .hero{
-        height:100vh;
-        background-image: url(../images/WhatsApp\ Image\ \ \(1\).png);
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size:contain;
+    a{
+        text-decoration: none;
     }
     h1{
         font-weight:800px;
@@ -41,7 +34,23 @@ body, button{
         line-height:41px;
         margin-bottom:26px;
     }
+    .hero{
+        height:100vh;
+        background-image: url(../images/WhatsApp\ Image\ \ \(1\).png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:contain;
+        position:relative;
+    }
     .container{
+        width:calc(100% - 200px)
+        margin:auto;
+    }
+    header{
+        padding:20px;
+    }
+    
+    article{
         position: absolute;
         top:50%;
         transform: translateY(-50%);
@@ -69,7 +78,7 @@ body, button{
     }
 @media screen and (max-width:1600px){
     .container{
-        padding: 0 80px;
+        padding-left: 80px ;
     }
     h1{
         font-size:30px;
@@ -109,25 +118,19 @@ body, button{
      
 @media screen and (max-width:1400px){
     .container{
-        padding: 0 90px;
+        padding-left: 0 90px;
     }
     h1{
         font-size:26px;
         line-height:36px;
-        color:#000000;
         margin-bottom:30px;
     }
     h2{
         font-size:40px;
         line-height:50px;
-        color:#000000;
         margin:20px 0 10px 0;
     }
-    h2 img{
-        width:35px;
-        height:35px;
-
-    }
+    
     .msg-box{
         font-size:26px;
         line-height:30px;
@@ -180,10 +183,11 @@ body, button{
     
 }
 @media screen and (max-width:500px){
+    .container{
+        padding:0 40px;
+    }
     .hero{
-        position:absolute;
-        top:center;
-        transform: translateY(-50);
+        background-image: none;
     }
 }
     
