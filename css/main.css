@@ -43,7 +43,7 @@ body, button{
         position:relative;
     }
     .container{
-        width:calc(100% - 200px)
+        width:calc(100% - 200px);
         margin:auto;
     }
     header{
@@ -77,9 +77,6 @@ body, button{
         height:270px;
     }
 @media screen and (max-width:1600px){
-    .container{
-        padding-left: 80px ;
-    }
     h1{
         font-size:30px;
         line-height:46px;
@@ -117,9 +114,7 @@ body, button{
  }    
      
 @media screen and (max-width:1400px){
-    .container{
-        padding-left: 0 90px;
-    }
+    
     h1{
         font-size:26px;
         line-height:36px;
@@ -184,7 +179,8 @@ body, button{
 }
 @media screen and (max-width:500px){
     .container{
-        padding:0 40px;
+        width:calc(100% - 150px);
+        margin:auto;
     }
     .hero{
         background-image: none;
